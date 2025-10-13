@@ -71,7 +71,7 @@ void Daemon::performTask() {
                 syslog(LOG_ERR, "Could not open source file %s", srcPath.c_str());
                 continue;
             }
-            outfile << "\n\n" << name << "\n" << infile.rdbuf();
+            outfile << "\n\n" << name << "\n\n" << infile.rdbuf();
             infile.close();
             outfile.flush();
             if (remove(srcPath.c_str()) != 0) {
