@@ -1,10 +1,11 @@
 
 
 log1.log
-Test log 1: Some text
+
+Test log 1
 
 
 log2.log
-Test log 2:
-Multi-line
-Test
+
+Test log 2
+Another test log 2
