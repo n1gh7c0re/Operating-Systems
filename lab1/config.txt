@@ -1,0 +1,3 @@
+src_dir=/mnt/c/Poly/Operating System/lab1/tmp/test_src
+dest_dir=/mnt/c/Poly/Operating System/lab1/tmp/test_dest
+interval=45
